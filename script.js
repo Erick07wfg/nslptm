@@ -15,7 +15,7 @@ nose.addEventListener('click', ()=>{
         if(window.innerWidth>1000){
             tampoco.style.left = '40%'
         } else {
-            tampoco.style.left = '0%'
+            tampoco.style.left = '10%'
         }
         tampoco.style.opacity = '1'
     },0)
@@ -26,7 +26,7 @@ nose2.addEventListener('click', ()=>{
         if(window.innerWidth>1000){
             tampoco2.style.left = '40%'
         } else {
-            tampoco2.style.left = '00%'
+            tampoco2.style.left = '10%'
         }
         tampoco2.style.opacity = '1'
     },0)
