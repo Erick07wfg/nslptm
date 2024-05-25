@@ -21,14 +21,14 @@ button{
     border: none;
 }
 #hidden1{
+    height: 350px;
+    width: 299px;
     transition: 0.6s;
     left: 70%;
-    opacity: 0;
     padding: 30px;
+    opacity: 0;
     border-radius: 10px;
-    height: 350px;
-    width: 300px;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: #333;
     position: absolute;
@@ -50,21 +50,31 @@ button{
         }
     }
 }
+.nose{
+    display: flex;
+    flex-direction: column;
+}
 #hidden2{
-    transition: 0.6s;
+    
+    transition:0.6s;
     left: 10%;
     opacity: 0;
     padding: 30px;
     border-radius: 10px;
     height: 350px;
-    width: 300px;
-    display: flex;
+    width: 299px;
+    display: none;
     flex-direction: column;
     background-color: #333;
     position: absolute;
     align-self: center ;
+    >label{
+        color: #fff;
+        height: 30px;
+        margin-top: 10px;
+    }
     >input{
-        flex-grow: 1;
+        height: 40px;
         border: none;
         background-color: transparent;
         border-bottom: 1px solid #fff;
